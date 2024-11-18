@@ -1,0 +1,48 @@
+#server:
+#  port: 3000
+#
+#spring:
+#  profiles:
+#    active: dev
+#
+#
+#---
+#spring:
+#  profiles: dev
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: Shiva@cgi5
+#    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/college
+#    username: root123
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#
+#---
+#spring:
+#  profiles: qa
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: Shiva@cgi5
+#    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/college
+#    username: root123
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#
+#
+#---
+#spring:
+#  profiles: prod
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    password: Shiva@cgi5
+#    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/college
+#    username: root123
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true

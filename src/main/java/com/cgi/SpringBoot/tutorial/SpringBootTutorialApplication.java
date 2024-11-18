@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com/cgi/SpringBoot/tutorial/service")
-@ComponentScan(basePackages = "com/cgi/SpringBoot/tutorial/controller")
+//@ComponentScan(basePackages = "com/cgi/SpringBoot/tutorial/service")
+//@ComponentScan(basePackages = "com/cgi/SpringBoot/tutorial/controller")
 public class SpringBootTutorialApplication {
 
 	public static void main(String[] args) {

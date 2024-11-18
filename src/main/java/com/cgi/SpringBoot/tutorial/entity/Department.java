@@ -1,6 +1,7 @@
 package com.cgi.SpringBoot.tutorial.entity;
 
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -16,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
+@Builder   //it will help in build the object and set values
 public class Department {
 
     @Id
@@ -34,8 +35,13 @@ public class Department {
     @FutureOrPresent
     @Past
     @PastOrPresent*/
+    @JsonProperty("department_Name")   // useful when the JSON keys in a payload don't match the variable names in your Java classes
     private String departmentName;
+
+    @JsonProperty("department_Address")
     private String departmentAddress;
+
+    @JsonProperty("department_Code")
     private String departmentCode;
 
 }

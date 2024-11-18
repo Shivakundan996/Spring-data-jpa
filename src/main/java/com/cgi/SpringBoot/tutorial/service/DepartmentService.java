@@ -11,7 +11,7 @@ public interface DepartmentService {
 
     public Department saveDepartment(Department department);
 
-    public  List<Department> fetchDepartmentList();
+    public  List<Department> fetchDepartmentList() throws Exception;
 
     public Department getDepartmentById(Long id) throws DepartmentNotFoundException;
 

@@ -1,6 +1,10 @@
 package com.cgi.SpringBoot.tutorial.error;
 
-public class DepartmentNotFoundException extends Exception {
+import java.io.Serial;
+
+public class DepartmentNotFoundException extends RuntimeException {
+    @Serial
+    private static final long serialVersionUID = 1L;
     public DepartmentNotFoundException() {
         super();
     }

@@ -1,0 +1,4 @@
+com\cgi\SpringBoot\tutorial\service\DepartmentServiceTest.class
+com\cgi\SpringBoot\tutorial\repository\DepartmentRepoTest.class
+com\cgi\SpringBoot\tutorial\controller\DepartmentControllerTest.class
+com\cgi\SpringBoot\tutorial\SpringBootTutorialApplicationTests.class
